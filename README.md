@@ -1,8 +1,8 @@
 # 나의 첫 배포
-![화면](<img width="572" height="730" alt="image" src="https://github.com/user-attachments/assets/332dda50-7964-4559-b5d1-575d58d479a5" />
-)
+<img width="806" height="764" alt="image" src="https://github.com/user-attachments/assets/aab1e30c-26cc-4cf8-a199-7368119bbd7b" />  
+
 # 개발 환경
-node
-v22.12.0
-npm
+node  
+v22.12.0  
+npm  
 10.9.0
