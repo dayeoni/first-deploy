@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            호주에는 쿼카라는 귀여운 동물이 있어요.
+            Save and see your changes instantly.
           </li>
         </ol>
 
