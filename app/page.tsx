@@ -11,10 +11,22 @@ async function getResumeInfo() {
   return res.json();
 }
 
+// 서버 컴포넌트에서 직접 API 호출
+async function getPortfolioInfo() {
+  const res = await fetch('https://raw.githubusercontent.com/dayeoni/first-deploy/refs/heads/main/service/resume_portfolio_service.json');
+  // API 응답이 성공적인지 확인
+  if (!res.ok) {
+    // 응답이 실패하면 오류를 던져 Next.js가 오류 페이지를 보여주도록 함
+    throw new Error('Failed to fetch data');
+  }
+  return res.json();
+}
+
 export default async function Home() {
 
   // getResumeInfo 함수를 호출하여 데이터를 기다림
   const data = await getResumeInfo()
+  const portfolio = await getPortfolioInfo()
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -36,7 +48,7 @@ export default async function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            호주에는 쿼카라는 귀여운 동물이 있어요.
+            제 프로젝트 이름은 {portfolio.title}입니다
           </li>
         </ol>
 
