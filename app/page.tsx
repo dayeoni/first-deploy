@@ -105,7 +105,7 @@ export default async function Home() {
         </a>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
-          href="https://github.com/aaahyunseo/inspire3-team6-pj1"
+          href="https://github.com/dayeoni"
           target="_blank"
           rel="noopener noreferrer"
         >
