@@ -32,10 +32,9 @@ export default async function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
-          className="dark:invert"
           src="/cuti.png"
           alt="Next.js logo"
-          width={180}
+          width={300}
           height={38}
           priority
         />
@@ -45,48 +44,23 @@ export default async function Home() {
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               교육생 {data.name}입니다
             </code>
-            .
           </li>
-          <li className="tracking-[-.01em]">
-            제 프로젝트 이름은 {portfolio.title}입니다
+          <li className="mb-2 tracking-[-.01em]">
+            사진 속 동물은 호주에 사는 귀여운 쿼카입니다
+          </li>
+          <li className="mb-2 tracking-[-.01em]">
+            귀엽다고 만지면..벌금
+          </li>
+          <li className="mb-2 tracking-[-.01em]">
+            첫 프로젝트는 {portfolio.title} 입니다
+          </li>
+          <li className="mb-2 tracking-[-.01em]">
+            LG CNS 부트캠프 교육생들을 위한 블로그입니다
           </li>
         </ol>
-
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
+          href="https://github.com/StarChoiMarine/CNStudy-FE"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -97,9 +71,54 @@ export default async function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          GitHub FE Repository →
         </a>
-      </footer>
+        <a
+          className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
+          href="https://github.com/aaahyunseo/inspire3-team6-pj1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          GitHub BE Repositoy →
+        </a>
+        <a
+          className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
+          href="https://github.com/aaahyunseo/inspire3-team6-pj1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/file.svg"
+            alt="File icon"
+            width={16}
+            height={16}
+          />
+          Resume →
+        </a>
+        <a
+          className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
+          href="https://github.com/aaahyunseo/inspire3-team6-pj1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          My GitHub →
+        </a>
+      </main>
     </div>
   );
 }
