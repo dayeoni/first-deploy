@@ -57,6 +57,9 @@ export default async function Home() {
           <li className="mb-2 tracking-[-.01em]">
             LG CNS 부트캠프 교육생들을 위한 블로그입니다
           </li>
+          <li className="mb-2 tracking-[-.01em]">
+            이력서는 아직 완성하지 못했습니다ㅠㅠ
+          </li>
         </ol>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
@@ -90,7 +93,7 @@ export default async function Home() {
         </a>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
-          href="https://github.com/aaahyunseo/inspire3-team6-pj1"
+          href="https://github.com/dayeoni"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +104,7 @@ export default async function Home() {
             width={16}
             height={16}
           />
-          Resume →
+          Resume(미완성) →
         </a>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
