@@ -93,7 +93,7 @@ export default async function Home() {
         </a>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
-          href="https://github.com/dayeoni"
+          href="/resume"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -104,7 +104,7 @@ export default async function Home() {
             width={16}
             height={16}
           />
-          Resume(미완성) →
+          Resume →
         </a>
         <a
           className="flex items-center ml-20 gap-2 hover:underline hover:underline-offset-4 "
