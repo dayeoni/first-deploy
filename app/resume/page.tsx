@@ -66,7 +66,16 @@ export default function ResumePage() {
               <li>팀 단위 프로젝트 수행 및 발표를 통해 장려상 수상</li>
             </ul>
 
-            
+            {/* 수상 이미지 */}
+            <div className="mt-2">
+              <Image
+                src="/finnect.jpg"
+                alt="FIN:NECT 챌린지 장려상"
+                width={600}
+                height={400}
+                className="rounded-md border"
+              />
+            </div>
           </div>
         </section>
 
