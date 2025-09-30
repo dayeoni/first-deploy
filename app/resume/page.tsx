@@ -65,17 +65,6 @@ export default function ResumePage() {
               <li>금융 데이터 활용 서비스 아이디어 기획 및 프로토타입 구현</li>
               <li>팀 단위 프로젝트 수행 및 발표를 통해 장려상 수상</li>
             </ul>
-
-            {/* 수상 이미지 */}
-            <div className="mt-2">
-              <Image
-                src="/finnect.jpg"
-                alt="FIN:NECT 챌린지 장려상"
-                width={600}
-                height={400}
-                className="rounded-md border"
-              />
-            </div>
           </div>
         </section>
 
